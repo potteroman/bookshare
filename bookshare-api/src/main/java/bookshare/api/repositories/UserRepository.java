@@ -1,3 +1,5 @@
+package bookshare.api.repositories;
+
 import bookshare.api.entities.User;
 
 public interface UserRepository {
