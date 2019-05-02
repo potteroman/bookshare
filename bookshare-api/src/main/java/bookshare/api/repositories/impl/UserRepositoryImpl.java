@@ -9,9 +9,9 @@ public class UserRepositoryImpl implements UserRepository {
 
     private static final String DB_CONNECTION = "jdbc:postgresql://localhost:5432/bookshare_db";
     private static final String DB_USER = "postgres";
-    private static final String DB_PASSWORD = "123456";
+    private static final String DB_PASSWORD = "10468790";
 
-    private static final String INSERT_USER_SQL = "INSERT INTO \"user\" (username, email, password, firstName, lastName, city, phone, isActive) VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id";
+    private static final String INSERT_USER_SQL = "INSERT INTO \"user\" (username, email, password, first_name, last_name, city, phone, is_active) VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id";
 
     public User insert(User user) throws Exception {
         try (Connection dbConnection = DriverManager.getConnection(DB_CONNECTION, DB_USER,DB_PASSWORD)) {
