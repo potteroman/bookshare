@@ -23,11 +23,9 @@ class Book extends Component {
         return (
             <tr key={ item.id }>
                 <td>{ item.id }</td>
-                <td>{ item.name }</td>
-                <td>{ item.autor }</td>
-                <td>{ item.genre }</td>
-                <td>{ item.publication }</td>
-                <td>{ item.year }</td>
+                <td>{ item.bookId }</td>
+                <td>{ item.userId }</td>
+                <td>{ item.announceTimestamp }</td>
             </tr>
         );
     }
