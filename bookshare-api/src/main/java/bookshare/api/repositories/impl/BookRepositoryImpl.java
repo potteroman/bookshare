@@ -34,7 +34,14 @@ public class BookRepositoryImpl implements BookRepository {
         }
 
     public static void main(String[] args) throws Exception {
-        new BookRepositoryImpl().insert(new BookEntity(0l,"The song of ice and fire","R. Martin","fantasy",
-                LocalDate.ofYearDay(2007,1),""));
+        //new BookRepositoryImpl().insert(new BookEntity(0l,"The song of ice and fire","R. Martin","fantasy",
+               // LocalDate.ofYearDay(2007,1),""));
+        new BookRepositoryImpl().insert(new BookEntity(1l,"Harry Potter","J.K. Rowling","fantasy",
+                LocalDate.ofYearDay(1997,1),""));
+        new BookRepositoryImpl().insert(new BookEntity(2l,"Sherlock Holmes"," Sir Arthur Conan Doyle","Detective",
+                LocalDate.ofYearDay(1887,1),""));
+        new BookRepositoryImpl().insert(new BookEntity(3l,"Lord of the rings","J. R. R. Tolkien","fantasy",
+                LocalDate.ofYearDay(1949,1),""));
+
     }
 }

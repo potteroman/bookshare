@@ -5,6 +5,7 @@ import bookshare.api.models.AnnounceAddRequest;
 import bookshare.api.models.AnnounceAddResponse;
 import bookshare.api.repositories.AnnounceBoardRepository;
 import bookshare.api.repositories.impl.AnnounceBoardRepositoryImpl;
+import bookshare.api.models.AnnounceDataResponse;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -46,8 +47,8 @@ public class AnnounceBoardController {
     }
 
     @GetMapping(value = "/api/announce")
-    public List<AnnounceBoardEntity> getAllUsers() throws SQLException {
-        List<AnnounceBoardEntity> announceBoardEntities = announceBoardRepository.selectAll();
+    public List<AnnounceDataResponse> getAllUsers() throws SQLException {
+        List<AnnounceDataResponse> announceBoardEntities = announceBoardRepository.selectAll2();
         return announceBoardEntities;
     }
 

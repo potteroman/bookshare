@@ -5,6 +5,9 @@ import java.time.LocalDateTime;
 public class AnnounceAddRequest {
     private Integer id;
     private Integer userId;
+    private Integer bookId;
+    private LocalDateTime announceTimestamp;
+
 
     public Integer getId() {
         return id;
@@ -38,6 +41,5 @@ public class AnnounceAddRequest {
         this.announceTimestamp = announceTimestamp;
     }
 
-    private Integer bookId;
-    private LocalDateTime announceTimestamp;
+
 }

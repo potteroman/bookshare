@@ -42,9 +42,9 @@ class BookList extends Component {
                 <thead>
                     <tr>
                         <th>Id</th>
-                        <th>User_id</th>
-                        <th>Book_id</th>
-                        <th>Announce_timestamp</th>
+                        <th>User</th>
+                        <th>Book</th>
+                        <th>Date</th>
                     </tr>
                 </thead>
                 <tbody>

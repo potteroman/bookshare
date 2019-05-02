@@ -6,6 +6,10 @@ public class AnnounceBoardEntity {
     private Integer id;
     private Integer userId;
     private Integer bookId;
+    private LocalDateTime announceTimestamp;
+
+    public AnnounceBoardEntity() {
+    }
 
     @Override
     public String toString() {
@@ -17,7 +21,6 @@ public class AnnounceBoardEntity {
                 '}';
     }
 
-    private LocalDateTime announceTimestamp;
 
     public AnnounceBoardEntity(Integer id, Integer userId, Integer bookId, LocalDateTime announceTimestamp) {
         this.id = id;
@@ -26,8 +29,6 @@ public class AnnounceBoardEntity {
         this.announceTimestamp = announceTimestamp;
     }
 
-    public AnnounceBoardEntity() {
-    }
 
     public Integer getId() {
         return id;
