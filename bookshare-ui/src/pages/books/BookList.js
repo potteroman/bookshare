@@ -5,11 +5,29 @@ class BookList extends Component {
 
     constructor() {
         super();
+        this.state = {
+            items:[]
+        };
         console.log("[ BookList] constructor");
     }
 
     componentDidMount() {
         console.log("[ BookList] componentDidMount");
+        let initialItems = [];
+        fetch('http://localhost:8080/api/announce')
+            .then(response => {
+                return response.json();
+                
+            }).then(data => {
+                initialItems = data.map((planet) => {
+                console.log(planet)
+                return planet
+            });
+
+            this.setState({
+                items: initialItems,
+            });
+        });
     }
     
     componentWillUnmount() {
@@ -18,14 +36,6 @@ class BookList extends Component {
 
     render() {
         console.log("[ BookList] render");
-
-        let items = [
-            { id : 1, name : "Harry Potter 1", autor : "J.J. Rowling", genre : "Fantasy" ,publication: "London Pub",year: "1997"},
-            { id : 2, name : "Harry Potter 2", autor : "J.J. Rowling", genre : "Fantasy" ,publication: "London Pub",year: "1998"},
-            { id : 3, name : "Harry Potter 3", autor : "J.J. Rowling", genre : "Fantasy" ,publication: "London Pub",year: "1999"},
-            { id : 4, name : "Harry Potter 4", autor : "J.J. Rowling", genre : "Fantasy" ,publication: "London Pub",year: "2000"},
-            { id : 5, name : "Harry Potter 5", autor : "J.J. Rowling", genre : "Fantasy" ,publication: "London Pub",year: "2003"},
-        ];    
 
         return (
             <table>
@@ -41,7 +51,7 @@ class BookList extends Component {
                 </thead>
                 <tbody>
                 {
-                    items.map(item => <Book item={ item } />)
+                      this.state.items.map(item => <Book item={ item } />)
                 }
                 </tbody>
             </table>
