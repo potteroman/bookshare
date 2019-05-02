@@ -6,9 +6,14 @@ import bookshare.api.models.AnnounceAddResponse;
 import bookshare.api.repositories.AnnounceBoardRepository;
 import bookshare.api.repositories.impl.AnnounceBoardRepositoryImpl;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.sql.SQLException;
+import java.time.LocalDateTime;
+import java.util.List;
 
 @RestController
 @CrossOrigin
@@ -16,14 +21,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class AnnounceBoardController {
     private final AnnounceBoardRepository announceBoardRepository;
 
+
     public AnnounceBoardController() {
-        this.announceBoardRepository = new AnnounceBoardRepository() {
-            @Override
-            public AnnounceBoardEntity insert(AnnounceBoardEntity announceBoard) throws ClassNotFoundException, Exception {
-                return null;
-            }
-        };
+        this.announceBoardRepository = new AnnounceBoardRepositoryImpl();
     }
+
+
 
     @PostMapping("/api/announce/add")
     public AnnounceAddResponse posting(@RequestBody AnnounceAddRequest addRequest) throws Exception {
@@ -34,13 +37,18 @@ public class AnnounceBoardController {
         newAnnounce.setBookId(addRequest.getBookId());
         newAnnounce.setAnnounceTimestamp(addRequest.getAnnounceTimestamp());
 
-
         AnnounceBoardEntity insertedAnnounce = this.announceBoardRepository.insert(newAnnounce);
 
         AnnounceAddResponse annonceResponse = new AnnounceAddResponse();
         annonceResponse.setId(insertedAnnounce.getId());
 
-        return AnnounceAddResponse;
+        return annonceResponse;
+    }
+
+    @GetMapping(value = "/api/announce")
+    public List<AnnounceBoardEntity> getAllUsers() throws SQLException {
+        List<AnnounceBoardEntity> announceBoardEntities = announceBoardRepository.selectAll();
+        return announceBoardEntities;
     }
 
 }

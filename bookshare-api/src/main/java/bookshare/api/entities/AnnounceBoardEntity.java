@@ -6,6 +6,17 @@ public class AnnounceBoardEntity {
     private Integer id;
     private Integer userId;
     private Integer bookId;
+
+    @Override
+    public String toString() {
+        return "AnnounceBoardEntity{" +
+                "id=" + id +
+                ", userId=" + userId +
+                ", bookId=" + bookId +
+                ", announceTimestamp=" + announceTimestamp +
+                '}';
+    }
+
     private LocalDateTime announceTimestamp;
 
     public AnnounceBoardEntity(Integer id, Integer userId, Integer bookId, LocalDateTime announceTimestamp) {

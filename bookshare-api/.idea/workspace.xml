@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8085a1c0-0764-413a-93b1-16553ec2b3ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/ConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/BookEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/GeneralRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/BookRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookshare-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookshare-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/UserRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshare/api/BookshareApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshare/api/BookshareApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshare/api/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshare/api/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshare/api/entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshare/api/models/UserRegRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshare/api/models/UserRegRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshare/api/models/UserRegResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshare/api/models/UserRegResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshare/api/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshare/api/repositories/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshare/api/repositories/impl/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshare/api/repositories/impl/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +18,7 @@
     <session id="1220338155">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
@@ -51,26 +29,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="61" />
+          <entry key="java" value="68" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="61" />
+          <entry key="JAVA" value="68" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="968" />
+          <entry key="java" value="1022" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="968" />
+          <entry key="JAVA" value="1022" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="8" />
         </counts>
@@ -79,14 +57,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="28" column="101" lean-forward="true" selection-start-line="28" selection-start-column="101" selection-end-line="28" selection-end-column="101" />
+            <state relative-caret-position="134">
+              <caret line="36" column="68" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -94,25 +95,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
+            <state relative-caret-position="-184">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,16 +130,16 @@
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/GeneralRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/BookRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/ConnectionManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/entities/BookEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/BookRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java" />
       </list>
     </option>
@@ -235,15 +221,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookshare-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookshare-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,7 +244,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556825995775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556828950494" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -341,7 +318,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.26096824" />
@@ -352,7 +328,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09016393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26229507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-190">
@@ -496,23 +465,6 @@
             <element signature="e#187#188#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="35" column="75" lean-forward="true" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -576,9 +528,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
+        <state relative-caret-position="-184">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -586,12 +545,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" column="101" lean-forward="true" selection-start-line="28" selection-start-column="101" selection-end-line="28" selection-end-column="101" />
+        <state relative-caret-position="134">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
           </folding>
         </state>
       </provider>
