@@ -9,7 +9,7 @@
         <module name="bookshare-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11">
       <module name="bookshare-api" target="12" />
     </bytecodeTargetLevel>
   </component>

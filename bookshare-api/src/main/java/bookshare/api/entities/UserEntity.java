@@ -1,6 +1,6 @@
 package bookshare.api.entities;
 
-public class User {
+public class UserEntity {
 
     private Long id;
     private String username;

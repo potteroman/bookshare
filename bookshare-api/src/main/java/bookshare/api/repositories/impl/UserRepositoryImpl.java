@@ -1,6 +1,6 @@
 package bookshare.api.repositories.impl;
 
-import bookshare.api.entities.User;
+import bookshare.api.entities.UserEntity;
 import bookshare.api.repositories.UserRepository;
 
 import java.sql.*;
@@ -13,7 +13,7 @@ public class UserRepositoryImpl implements UserRepository {
 
     private static final String INSERT_USER_SQL = "INSERT INTO \"user\" (username, email, password, first_name, last_name, city, phone, is_active) VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id";
 
-    public User insert(User user) throws Exception {
+    public UserEntity insert(UserEntity user) throws Exception {
         try (Connection dbConnection = DriverManager.getConnection(DB_CONNECTION, DB_USER,DB_PASSWORD)) {
             try (PreparedStatement statement = dbConnection.prepareStatement(INSERT_USER_SQL)) {
                 statement.setString(1, user.getUsername());

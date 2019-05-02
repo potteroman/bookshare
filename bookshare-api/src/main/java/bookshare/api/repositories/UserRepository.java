@@ -1,9 +1,9 @@
 package bookshare.api.repositories;
 
-import bookshare.api.entities.User;
+import bookshare.api.entities.UserEntity;
 
-public interface UserRepository {
+public interface UserRepository  {
 
-    User insert(User user) throws ClassNotFoundException, Exception;
+    UserEntity insert(UserEntity user) throws ClassNotFoundException, Exception;
 
 }

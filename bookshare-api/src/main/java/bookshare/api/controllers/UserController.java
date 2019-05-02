@@ -1,14 +1,14 @@
 package bookshare.api.controllers;
 
-import bookshare.api.entities.User;
-import bookshare.api.models.UserRegRequest;
-import bookshare.api.models.UserRegResponse;
-import bookshare.api.repositories.UserRepository;
-import bookshare.api.repositories.impl.UserRepositoryImpl;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+        import bookshare.api.entities.UserEntity;
+        import bookshare.api.models.UserRegRequest;
+        import bookshare.api.models.UserRegResponse;
+        import bookshare.api.repositories.UserRepository;
+        import bookshare.api.repositories.impl.UserRepositoryImpl;
+        import org.springframework.web.bind.annotation.CrossOrigin;
+        import org.springframework.web.bind.annotation.PostMapping;
+        import org.springframework.web.bind.annotation.RequestBody;
+        import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin
@@ -23,7 +23,7 @@ public class UserController {
     @PostMapping("/api/user/register")
     public UserRegResponse register(@RequestBody UserRegRequest regRequest) throws Exception {
 
-        User newUser = new User();
+        UserEntity newUser = new UserEntity();
         newUser.setUsername(regRequest.getUsername());
         newUser.setEmail(regRequest.getEmail());
         newUser.setPassword(regRequest.getPassword());
@@ -35,7 +35,7 @@ public class UserController {
 
         newUser.setActive(true);
 
-        User insertedUser = this.userRepository.insert(newUser);
+        UserEntity insertedUser = this.userRepository.insert(newUser);
 
         UserRegResponse regResponse = new UserRegResponse();
         regResponse.setUserId(insertedUser.getId());
