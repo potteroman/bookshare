@@ -28,7 +28,7 @@ public class BookRepositoryImpl implements BookRepository {
                 statement.setString(2, book.getAuthor());
                 statement.setString(3, book.getGenre());
                 statement.setDate(4, Date.valueOf(book.getYear()));
-                statement.setString(5, book.getDiscription());
+                statement.setString(5, book.getDescription());
 
                 try (ResultSet generatedKeys = statement.executeQuery()) {
                     if (generatedKeys.next()) {

@@ -1,11 +1,19 @@
 package bookshare.api.controllers;
 
-import bookshare.api.entities.AnnounceBoardEntity;
+import bookshare.api.entities.*;
+
 import bookshare.api.models.AnnounceAddRequest;
 import bookshare.api.models.AnnounceAddResponse;
-import bookshare.api.repositories.AnnounceBoardRepository;
-import bookshare.api.repositories.impl.AnnounceBoardRepositoryImpl;
 import bookshare.api.models.AnnounceDataResponse;
+
+import bookshare.api.repositories.AnnounceBoardRepository;
+import bookshare.api.repositories.UserAnnounceBookRepository;
+
+import bookshare.api.repositories.impl.AnnounceBoardRepositoryImpl;
+import bookshare.api.repositories.impl.UserAnnounceBookRepositoryImpl;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.sql.SQLException;
-import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -21,13 +29,12 @@ import java.util.List;
 
 public class AnnounceBoardController {
     private final AnnounceBoardRepository announceBoardRepository;
-
+    private final UserAnnounceBookRepository userAnnounceBookRepository;
 
     public AnnounceBoardController() {
-        this.announceBoardRepository = new AnnounceBoardRepositoryImpl();
+        this.userAnnounceBookRepository = new UserAnnounceBookRepositoryImpl();
+        this.announceBoardRepository=new AnnounceBoardRepositoryImpl();
     }
-
-
 
     @PostMapping("/api/announce/add")
     public AnnounceAddResponse posting(@RequestBody AnnounceAddRequest addRequest) throws Exception {
@@ -47,9 +54,24 @@ public class AnnounceBoardController {
     }
 
     @GetMapping(value = "/api/announce")
-    public List<AnnounceDataResponse> getAllUsers() throws SQLException {
-        List<AnnounceDataResponse> announceBoardEntities = announceBoardRepository.selectAll2();
-        return announceBoardEntities;
+    public ResponseEntity<List<AnnounceDataResponse>> getAllUsers() throws SQLException {
+        List<UserAnnounceBookEntity> announceBoardEntities = userAnnounceBookRepository.selectAll();
+        List<AnnounceDataResponse> announceDataResponses = new ArrayList<>();
+        announceBoardEntities.forEach((a) -> {
+            UserEntity u = a.getUserEntity();
+            BookEntity b = a.getBookEntity();
+            announceDataResponses.add(new AnnounceDataResponse(
+                    a.getId(),
+                    u.getFirstName(),
+                    u.getLastName(),
+                    b.getName(),
+                    b.getGenre(),
+                    b.getAuthor(),
+                    b.getYear(),
+                    a.getAnnounceTimeStamp()
+            ));
+        });
+        return new ResponseEntity<>(announceDataResponses, HttpStatus.OK);
     }
 
 }

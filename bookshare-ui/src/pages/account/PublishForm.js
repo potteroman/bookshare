@@ -1,4 +1,4 @@
-import React,{component} from 'react';
+import React, { Component } from 'react';
 
 import DropdownButton from 'react-bootstrap/DropdownButton'
 
@@ -8,23 +8,6 @@ class PublishForm extends Component
         super();    
     };
 
-    render(){
-        return(
-            <div>
-     <Dropdow>
-    <Dropdown.Toggle variant="success" id="dropdown-basic">
-        Dropdown Button
-    </Dropdown.Toggle>
-
-    <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-    </Dropdown.Menu>
-        </Dropdow>
-        </div>
-        );
-    }
 }
 
 export default PublishForm

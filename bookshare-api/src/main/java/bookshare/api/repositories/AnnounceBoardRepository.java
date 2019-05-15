@@ -7,5 +7,4 @@ import bookshare.api.models.AnnounceDataResponse;
 
 public interface AnnounceBoardRepository  {
     AnnounceBoardEntity insert(AnnounceBoardEntity announceBoard) throws ClassNotFoundException, Exception;
-    public List<AnnounceDataResponse> selectAll2() throws SQLException;
 }

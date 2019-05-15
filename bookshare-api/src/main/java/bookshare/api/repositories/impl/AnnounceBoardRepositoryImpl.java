@@ -53,29 +53,29 @@ public class AnnounceBoardRepositoryImpl implements AnnounceBoardRepository {
         return entities;
     }
 
-    private AnnounceDataResponse parseResultSet2(ResultSet resultSet) throws SQLException {
-        Integer id = resultSet.getInt("id");
-        String user = resultSet.getString("last_name");
-        String book = resultSet.getString("name");
-        LocalDateTime announceTS = resultSet.getTimestamp("announce_timestamp").toLocalDateTime();
-        return new AnnounceDataResponse(id,user,book, announceTS);
-    }
+//    private AnnounceDataResponse parseResultSet2(ResultSet resultSet) throws SQLException {
+//        Integer id = resultSet.getInt("id");
+//        String user = resultSet.getString("last_name");
+//        String book = resultSet.getString("name");
+//        LocalDateTime announceTS = resultSet.getTimestamp("announce_timestamp").toLocalDateTime();
+//        return new AnnounceDataResponse(id,user,book, announceTS);
+//    }
 
-    public List<AnnounceDataResponse> selectAll2() throws SQLException {
-        List<AnnounceDataResponse> entities = new ArrayList<>();
-        try (
-                Connection connection = ConnectionManager.getConnection();
-                Statement statement = connection.createStatement();
-                ResultSet resultSet = statement.executeQuery(SELECT_ALL2)
-        ) {
-            while (resultSet.next()) {
-                entities.add(parseResultSet2(resultSet));
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return entities;
-    }
+//    public List<AnnounceDataResponse> selectAll2() throws SQLException {
+//        List<AnnounceDataResponse> entities = new ArrayList<>();
+//        try (
+//                Connection connection = ConnectionManager.getConnection();
+//                Statement statement = connection.createStatement();
+//                ResultSet resultSet = statement.executeQuery(SELECT_ALL2)
+//        ) {
+//            while (resultSet.next()) {
+//                entities.add(parseResultSet2(resultSet));
+//            }
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        return entities;
+//    }
 
 
 
