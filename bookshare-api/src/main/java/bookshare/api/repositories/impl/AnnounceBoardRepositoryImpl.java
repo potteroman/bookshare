@@ -16,7 +16,7 @@ public class AnnounceBoardRepositoryImpl implements AnnounceBoardRepository {
 
     private static final String INSERT_Book_SQL = "INSERT INTO \"announce_board\" (id,user_id,book_id,announce_timestamp) VALUES (?, ?, ?, ?) RETURNING id";
     private static final String SELECT_ALL = "SELECT * FROM public.announce_board";
-    private static final String SELECT_ALL2 = "SELECT a.id, u.surname, b.name, a.announce_timestamp FROM public.announce_board a JOIN public.\"user\" u ON  a.user_id=u.id JOIN  public.\"book\" b ON a.book_id = b.id";
+    private static final String SELECT_ALL2 = "SELECT a.id, u.last_name, b.name, a.announce_timestamp FROM public.announce_board a JOIN public.\"user\" u ON  a.user_id=u.id JOIN  public.\"book\" b ON a.book_id = b.id";
 
     public AnnounceBoardEntity insert(AnnounceBoardEntity announceBoard) throws SQLException {
         Connection dbConnection = ConnectionManager.getConnection();
@@ -55,7 +55,7 @@ public class AnnounceBoardRepositoryImpl implements AnnounceBoardRepository {
 
     private AnnounceDataResponse parseResultSet2(ResultSet resultSet) throws SQLException {
         Integer id = resultSet.getInt("id");
-        String user = resultSet.getString("surname");
+        String user = resultSet.getString("last_name");
         String book = resultSet.getString("name");
         LocalDateTime announceTS = resultSet.getTimestamp("announce_timestamp").toLocalDateTime();
         return new AnnounceDataResponse(id,user,book, announceTS);
@@ -90,7 +90,7 @@ public class AnnounceBoardRepositoryImpl implements AnnounceBoardRepository {
 
     public static void main(String[] args) throws Exception {
         //new AnnounceBoardRepositoryImpl().insert(new AnnounceBoardEntity(1,1,1,LocalDateTime.now()));
-        //new AnnounceBoardRepositoryImpl().insert(new AnnounceBoardEntity(,1,1,LocalDateTime.now()));
+        new AnnounceBoardRepositoryImpl().insert(new AnnounceBoardEntity(2,1,1,LocalDateTime.now()));
         new AnnounceBoardRepositoryImpl().insert(new AnnounceBoardEntity(3,1,2,LocalDateTime.now()));
         new AnnounceBoardRepositoryImpl().insert(new AnnounceBoardEntity(4,1,3,LocalDateTime.now()));
         new AnnounceBoardRepositoryImpl().selectAll().forEach(System.out::println);

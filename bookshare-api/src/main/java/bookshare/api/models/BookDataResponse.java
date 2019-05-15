@@ -1,9 +1,8 @@
-package bookshare.api.entities;
+package bookshare.api.models;
 
 import java.time.LocalDate;
 
-public class BookEntity {
-    private Long id;
+public class BookDataResponse {
     private String name;
     private String author;
     private String genre;
@@ -18,26 +17,6 @@ public class BookEntity {
         this.description = description;
     }
 
-    public BookEntity() {
-    }
-
-
-    public BookEntity(Long id, String name, String author, String genre, LocalDate year, String description) {
-        this.id = id;
-        this.name = name;
-        this.author = author;
-        this.genre = genre;
-        this.year = year;
-        this.description = description;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
@@ -45,6 +24,14 @@ public class BookEntity {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public String getGenre() {
@@ -55,20 +42,19 @@ public class BookEntity {
         this.genre = genre;
     }
 
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
     public LocalDate getYear() {
         return year;
     }
 
     public void setYear(LocalDate year) {
         this.year = year;
+    }
+
+    public BookDataResponse(String name, String author, String genre, LocalDate year,String description) {
+        this.name = name;
+        this.author = author;
+        this.genre = genre;
+        this.year = year;
+        this.description=description;
     }
 }

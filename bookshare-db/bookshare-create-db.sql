@@ -12,7 +12,7 @@ CREATE TABLE "user"
 	CONSTRAINT pk_user_id PRIMARY KEY ("id"),
 	CONSTRAINT uk_email UNIQUE ("email"),
 	CONSTRAINT uk_phone UNIQUE ("phone")
-)
+);
 
 CREATE TABLE "book"
 (
@@ -20,11 +20,10 @@ CREATE TABLE "book"
 	"name"	VARCHAR(50) NOT NULL,
 	"autor"	VARCHAR(50) DEFAULT 'Unknow',
 	"genre"	VARCHAR(50) NOT NULL,
-	"publication" VARCHAR(20) NOT NULL,
 	"year"  DATE NOT NULL,
 	"description" VARCHAR(50) DEFAULT 'Not provaided',
 	CONSTRAINT pk_book_id PRIMARY KEY ("id")
-)
+);
 
 CREATE TABLE "announce_board"
 (

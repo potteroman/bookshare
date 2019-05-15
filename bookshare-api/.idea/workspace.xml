@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8085a1c0-0764-413a-93b1-16553ec2b3ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookshare-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookshare-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/BookEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/entities/BookEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/BookRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/BookRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bookshare/api/entities/AnnounceBoardEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshare/api/entities/AnnounceBoardEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookshare-db/bookshare-create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../bookshare-db/bookshare-create-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookshare-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../bookshare-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookshare-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../bookshare-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookshare-ui/src/pages/account/PublishForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../bookshare-ui/src/pages/account/PublishForm.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,57 +26,251 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1220338155">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.68" value="1" />
-          <entry key="project.open.time.71" value="1" />
-          <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="95" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="95" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="12" />
-          <entry key="java" value="1201" />
-          <entry key="xml" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1201" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="XML" value="8" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookshare_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookshare_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookshare_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookshare_db: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookshare_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookshare_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookshare_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookshare_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookshare_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookshare_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookshare_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookshare_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/BookRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="40" selection-start-line="40" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/BookRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+              <folding>
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/BookEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/UserRegRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="e#1278#1279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceDataResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/BookDataResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
+              <folding>
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,20 +301,25 @@
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/entities/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/GeneralRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/ConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/entities/BookEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/BookRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceDataResponce.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceDataResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java" />
         <option value="$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bf2855aa-137e-4f02-b36a-9d67c4e58bac/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8a4cabe3-7025-496e-a80f-bc8e7098bf52/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/user.properites" />
+        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/BookRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/repositories/BookRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/controllers/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/entities/BookEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bookshare/api/models/BookDataResponse.java" />
       </list>
     </option>
   </component>
@@ -123,9 +331,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="116" />
-    <option name="y" value="-8" />
-    <option name="width" value="977" />
+    <option name="x" value="115" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
     <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -134,8 +342,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -177,18 +383,66 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookshare-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshare-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookshare-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshare-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookshare-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshare-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookshare-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshare-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="greenplum&#10;postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556836741590" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -206,7 +460,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnnounceBoardRepositoryImpl">
+  <component name="RunManager" selected="Spring Boot.BookshareApiApplication">
     <configuration name="AnnounceBoardRepositoryImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bookshare.api.repositories.impl.AnnounceBoardRepositoryImpl" />
       <module name="bookshare-api" />
@@ -235,9 +489,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookshareApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bookshare-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bookshare.api.BookshareApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BookRepositoryImpl" />
       <item itemvalue="Application.AnnounceBoardRepositoryImpl" />
+      <item itemvalue="Spring Boot.BookshareApiApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -256,30 +518,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554409581147</updated>
+      <workItem from="1557855845506" duration="515000" />
+      <workItem from="1557902626378" duration="5863000" />
+      <workItem from="1557909765178" duration="2348000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8726000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.28053692" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.26096824" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26065573" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43342775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.47868854" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16997167" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -288,58 +562,66 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3295302" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27651006" />
+      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.26096824" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.26203966" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.16997167" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3295302" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/BookController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/BookshareApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="627" selection-start-line="627" selection-end-line="627" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/Book.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/BookEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="110" selection-start-line="12" selection-start-column="110" selection-end-line="12" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/UserRegResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -353,9 +635,175 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceDataResponce.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf2855aa-137e-4f02-b36a-9d67c4e58bac/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a4cabe3-7025-496e-a80f-bc8e7098bf52/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/user.properites">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8a4cabe3-7025-496e-a80f-bc8e7098bf52/database/bookshare_db/schema/public/table/announce_board">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a992cad1-9e95-43b0-ba04-d86df21525ef">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/BookshareApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8a4cabe3-7025-496e-a80f-bc8e7098bf52/database/bookshare_db/schema/public/table/book">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a992cad1-9e95-43b0-ba04-d86df21525ef">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8a4cabe3-7025-496e-a80f-bc8e7098bf52/database/bookshare_db/schema/public/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a992cad1-9e95-43b0-ba04-d86df21525ef">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/GeneralRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/UserRegRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="204">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
             <element signature="e#289#290#0" expanded="true" />
@@ -390,127 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/UserRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/GeneralRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/BookRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceAddResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceDataResponce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" lean-forward="true" selection-end-line="49" />
-          <folding>
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/AnnounceBoardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="34" column="64" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/AnnounceBoardEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/AnnounceDataResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -536,23 +863,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/AnnounceBoardRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="408">
+          <caret line="40" selection-start-line="40" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/AnnounceBoardRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/repositories/impl/BookRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/BookEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/entities/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/models/BookDataResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bookshare/api/controllers/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
