@@ -2,7 +2,7 @@ package bookshare.api.entities;
 
 public class UserEntity {
 
-    private Long id;
+    private Integer id;
     private String username;
     private String email;
     private String password;
@@ -12,7 +12,23 @@ public class UserEntity {
     private String phone;
     private Boolean isActive;
 
-    public Long getId() {
+    public UserEntity(Integer id, String username, String email, String password, String firstName, String lastName, String city, String phone, Boolean isActive) {
+        this.id = id;
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.city = city;
+        this.phone = phone;
+        this.isActive = isActive;
+    }
+
+    public UserEntity() {
+
+    }
+
+    public Integer getId() {
         return id;
     }
 
@@ -24,7 +40,7 @@ public class UserEntity {
         this.username = username;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

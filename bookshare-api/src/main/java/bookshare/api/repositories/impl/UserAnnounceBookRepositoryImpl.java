@@ -57,7 +57,7 @@ public class UserAnnounceBookRepositoryImpl implements UserAnnounceBookRepositor
         entity.setId(rs.getInt("announce_id"));
 
         UserEntity userEntity = new UserEntity();
-        userEntity.setId(rs.getLong("user_id"));
+        userEntity.setId(rs.getInt("user_id"));
         userEntity.setFirstName(rs.getString("first_name"));
         userEntity.setLastName(rs.getString("last_name"));
         userEntity.setEmail(rs.getString("email"));
@@ -67,7 +67,7 @@ public class UserAnnounceBookRepositoryImpl implements UserAnnounceBookRepositor
         entity.setUserEntity(userEntity);
 
         BookEntity bookEntity = new BookEntity();
-        bookEntity.setId(rs.getLong("book_id"));
+        bookEntity.setId(rs.getInt("book_id"));
         bookEntity.setName(rs.getString("name"));
         bookEntity.setGenre(rs.getString("genre"));
         bookEntity.setDescription(rs.getString("description"));

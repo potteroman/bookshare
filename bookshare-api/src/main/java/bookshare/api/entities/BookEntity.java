@@ -3,12 +3,21 @@ package bookshare.api.entities;
 import java.time.LocalDate;
 
 public class BookEntity {
-    private Long id;
+    private Integer id;
     private String name;
     private String author;
     private String genre;
     private LocalDate year;
     private String description;
+
+    public BookEntity(Integer id, String name, String author, String genre, LocalDate year, String description) {
+        this.id = id;
+        this.name = name;
+        this.author = author;
+        this.genre = genre;
+        this.year = year;
+        this.description = description;
+    }
 
     public String getDescription() {
         return description;
@@ -22,20 +31,11 @@ public class BookEntity {
     }
 
 
-    public BookEntity(Long id, String name, String author, String genre, LocalDate year, String description) {
-        this.id = id;
-        this.name = name;
-        this.author = author;
-        this.genre = genre;
-        this.year = year;
-        this.description = description;
-    }
-
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

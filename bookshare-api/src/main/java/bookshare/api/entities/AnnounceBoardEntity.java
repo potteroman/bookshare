@@ -8,19 +8,7 @@ public class AnnounceBoardEntity {
     private Integer bookId;
     private LocalDateTime announceTimestamp;
 
-    public AnnounceBoardEntity() {
-    }
-
-    @Override
-    public String toString() {
-        return "AnnounceBoardEntity{" +
-                "id=" + id +
-                ", userId=" + userId +
-                ", bookId=" + bookId +
-                ", announceTimestamp=" + announceTimestamp +
-                '}';
-    }
-
+    public AnnounceBoardEntity() { }
 
     public AnnounceBoardEntity(Integer id, Integer userId, Integer bookId, LocalDateTime announceTimestamp) {
         this.id = id;
@@ -28,7 +16,6 @@ public class AnnounceBoardEntity {
         this.bookId = bookId;
         this.announceTimestamp = announceTimestamp;
     }
-
 
     public Integer getId() {
         return id;

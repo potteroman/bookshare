@@ -2,18 +2,18 @@ package bookshare.api.models;
 
 import java.time.LocalDate;
 
-public class BookDataResponse {
+public class BookData {
     private String name;
     private String author;
     private String genre;
     private LocalDate year;
     private String description;
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
+    public BookData(String name, String author, String genre, LocalDate year, String description) {
+        this.name = name;
+        this.author = author;
+        this.genre = genre;
+        this.year = year;
         this.description = description;
     }
 
@@ -50,11 +50,11 @@ public class BookDataResponse {
         this.year = year;
     }
 
-    public BookDataResponse(String name, String author, String genre, LocalDate year,String description) {
-        this.name = name;
-        this.author = author;
-        this.genre = genre;
-        this.year = year;
-        this.description=description;
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

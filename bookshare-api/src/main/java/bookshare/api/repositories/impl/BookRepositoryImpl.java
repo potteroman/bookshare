@@ -16,7 +16,7 @@ import java.util.List;
 
 public class BookRepositoryImpl implements BookRepository {
 
-    private static final String INSERT_Book_SQL = "INSERT INTO \"book\" (name, autor, genre, year, description) VALUES (?, ?, ?, ?, ?) RETURNING id";
+    private static final String INSERT_Book_SQL = "INSERT INTO \"book\" (name, author, genre, year, description) VALUES (?, ?, ?, ?, ?) RETURNING id";
     private static final String SELECT_ALL = "SELECT * FROM public.book";
 
     public BookEntity insert(BookEntity book) throws Exception {
@@ -32,7 +32,7 @@ public class BookRepositoryImpl implements BookRepository {
 
                 try (ResultSet generatedKeys = statement.executeQuery()) {
                     if (generatedKeys.next()) {
-                        book.setId(generatedKeys.getLong(1));
+                        book.setId(generatedKeys.getInt(1));
                     }
                 }
             }
@@ -56,13 +56,13 @@ public class BookRepositoryImpl implements BookRepository {
     }
 
     private BookEntity parseResultSet(ResultSet resultSet) throws SQLException {
-        Long id = resultSet.getLong("id");
+        Integer id = resultSet.getInt("id");
         String name = resultSet.getString("name");
-        String autor=resultSet.getString("autor");
+        String author=resultSet.getString("author");
         String genre=resultSet.getString("genre");
         LocalDate year=resultSet.getDate("year").toLocalDate();
         String description=resultSet.getString("description");
-        return new BookEntity(id, name, autor, genre,year,description);
+        return new BookEntity(id, name, author, genre,year,description);
     }
 
     public static void main(String[] args) throws Exception {

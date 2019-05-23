@@ -23,8 +23,12 @@ class Book extends Component {
         return (
             <tr key={ item.id }>
                 <td>{ item.id }</td>
-                <td>{ item.user }</td>
-                <td>{ item.book }</td>
+                <td>{ item.firsName }</td>
+                <td>{ item.lastName }</td>
+                <td>{ item.bookName }</td>
+                <td>{ item.bookGenre }</td>
+                <td>{ item.author }</td>
+                <td>{ item.year }</td>
                 <td>{ item.announceTimestamp }</td>
             </tr>
         );

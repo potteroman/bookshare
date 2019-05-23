@@ -27,7 +27,7 @@ public class UserRepositoryImpl implements UserRepository {
 
                 try (ResultSet generatedKeys = statement.executeQuery()) {
                     if (generatedKeys.next()) {
-                        user.setId(generatedKeys.getLong(1));
+                        user.setId(generatedKeys.getInt(1));
                     }
                 }
             }

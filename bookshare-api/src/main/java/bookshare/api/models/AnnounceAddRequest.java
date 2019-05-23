@@ -1,45 +1,63 @@
 package bookshare.api.models;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class AnnounceAddRequest {
-    private Integer id;
-    private Integer userId;
-    private Integer bookId;
-    private LocalDateTime announceTimestamp;
+    private String name;
+    private String genre;
+    private String description;
+    private String author;
+    private LocalDate year;
 
-
-    public Integer getId() {
-        return id;
+    public AnnounceAddRequest() {
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public AnnounceAddRequest(String name, String genre, String description, String author, LocalDate year) {
+        this.name = name;
+        this.genre = genre;
+        this.description = description;
+        this.author = author;
+        this.year = year;
     }
 
-    public Integer getUserId() {
-        return userId;
+    public String getName() {
+        return name;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Integer getBookId() {
-        return bookId;
+    public String getGenre() {
+        return genre;
     }
 
-    public void setBookId(Integer bookId) {
-        this.bookId = bookId;
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 
-    public LocalDateTime getAnnounceTimestamp() {
-        return announceTimestamp;
+    public String getDescription() {
+        return description;
     }
 
-    public void setAnnounceTimestamp(LocalDateTime announceTimestamp) {
-        this.announceTimestamp = announceTimestamp;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
+    public String getAuthor() {
+        return author;
+    }
 
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public LocalDate getYear() {
+        return year;
+    }
+
+    public void setYear(LocalDate year) {
+        this.year = year;
+    }
 }

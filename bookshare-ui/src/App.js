@@ -4,7 +4,7 @@ import './App.css';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 import BookList from './pages/books/BookList';
 import RegistrationForm from './pages/account/RegistrationForm';
-import PublishForm from './pages/account/PublishForm';
+import AnnouncePublishForm from './pages/books/AnnouncePublishForm';
 import Notfound from './pages/common/NotFound';
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
 }
 
 componentDidMount() {
-  console.log("[App] componentDidMount");
+  console.log("[App] componentDidMount"); 
 }
 
 componentWillUnmount() {
@@ -28,15 +28,17 @@ render() {
   return (
    <Router>
       <div className="App">
-        <h1>Bookshare</h1>
         <div>
+          <Link to="/general">BookList</Link>
+          <br></br>
           <Link to="/register">Register</Link>
           <br></br>
           <Link to="/publish">Publish book</Link>
         </div>
         <Switch>
           <Route exact path="/" component={BookList} />
-          <Route path="/publish" component={PublishForm} />
+          <Route path="/general" component={BookList} />
+          <Route path="/publish" component={AnnouncePublishForm} />
           <Route path="/register" component={RegistrationForm} />
           <Route component={Notfound} />          
         </Switch>

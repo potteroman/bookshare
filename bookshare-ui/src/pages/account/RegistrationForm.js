@@ -59,7 +59,6 @@ class RegistrationForm extends Component
         render() {
             return (
               <div className="App">
-                <h1>BookShare</h1>
           
                 <div>
                   <form onSubmit={this.onSubmit}>

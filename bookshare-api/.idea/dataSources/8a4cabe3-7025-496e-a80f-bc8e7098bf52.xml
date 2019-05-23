@@ -8,7 +8,7 @@
       <ObjectId>16437</ObjectId>
       <StateNumber>578</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>581</IntrospectionStateNumber>
+      <IntrospectionStateNumber>621</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
       <Relations>sequence|table|16438|16440|1
@@ -105,7 +105,7 @@ sequence|table|16463|16465|1
       <Comment>standard public schema</Comment>
       <StateNumber>360</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>582</IntrospectionStateNumber>
+      <IntrospectionStateNumber>622</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -281,10 +281,10 @@ sequence|table|16463|16465|1
       <StateNumber>579</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="42" parent="30" name="autor">
+    <column id="42" parent="30" name="author">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
-      <StateNumber>579</StateNumber>
+      <StateNumber>599</StateNumber>
       <DefaultExpression>&apos;Unknow&apos;::character varying</DefaultExpression>
       <TypeId>1043</TypeId>
     </column>
