@@ -49,6 +49,7 @@ class BookList extends Component {
                         <th>Author</th>
                         <th>Year</th>
                         <th>Date</th>
+                        <th>Details</th>
                     </tr>
                 </thead>
                 <tbody>

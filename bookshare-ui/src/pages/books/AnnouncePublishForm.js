@@ -56,7 +56,7 @@ class AnnouncePublishForm extends Component
 
   render() {
     return (
-      <div className="App">
+      <div className="Publish">
   
         <div>
           <form onSubmit={this.onSubmit}>
@@ -81,7 +81,7 @@ class AnnouncePublishForm extends Component
                   <input type="text" id="description" className="FormField__Input" placeholder="Enter description of the book" name="description" value={this.state.description} onChange={this.handleChange} />
               </div>
               <div className="FormField">
-                  <button className="FormField__Button mr-20">Publish</button>
+                  <button className="publish_button">Publish</button>
               </div>
           </form>
         </div>  

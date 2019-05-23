@@ -33,3 +33,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.App form, .Publish form {   
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 220px;
+  height:330px;
+  background-color: white;
+  padding: 10px 0px 0px 4px;  /*поля навкруг тексту*/
+  border-radius: 15px;
+  border-style: ridge;
+  border:5px;
+  border-color: black;
+  color: black;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Century Gothic";
+}
+
+
+.App input, .App select {
+  width: 195px;
+  height: 20px;
+  margin: 3px 0px 0px 10px;
+  border: 5px;
+  font-weight: bold;
+ }
+
+.App form label {
+  margin: 5px 2px 0px 15px;
+}
+
+.register_button , .publish_button {
+  width: 149px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin: 15px auto 0px auto;
+  text-align: center;
+  cursor: pointer;
+  clear: both;
+}

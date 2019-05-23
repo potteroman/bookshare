@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 import BookList from './pages/books/BookList';
+import DetailsBook from './pages/books/DetailsBook';
 import RegistrationForm from './pages/account/RegistrationForm';
 import AnnouncePublishForm from './pages/books/AnnouncePublishForm';
 import Notfound from './pages/common/NotFound';
@@ -40,6 +41,7 @@ render() {
           <Route path="/general" component={BookList} />
           <Route path="/publish" component={AnnouncePublishForm} />
           <Route path="/register" component={RegistrationForm} />
+          <Route path='/announce/:id' component={DetailsBook} />
           <Route component={Notfound} />          
         </Switch>
       </div>

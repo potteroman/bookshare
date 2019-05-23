@@ -37,3 +37,15 @@ CREATE TABLE "announce_board"
   CONSTRAINT fk_book_id FOREIGN KEY("book_id") 
   REFERENCES "book"("id")
 );
+
+CREATE TABLE "order"
+(
+  "id" SERIAL NOT NULL,
+  "client_id" INTEGER NOT NULL,
+  "announce_id" INTEGER NOT NULL,
+  "comment" VARCHAR(250),
+  "is_active" BOOLEAN,
+  CONSTRAINT pk_order_ca_id PRIMARY KEY ("client_id","announce_id"),
+  CONSTRAINT fk_user_id FOREIGN KEY("client_id") REFERENCES "user"("id"),
+  CONSTRAINT fk_announce_id FOREIGN KEY("announce_id") REFERENCES "announce_board"("id")
+);

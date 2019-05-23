@@ -91,7 +91,7 @@ class RegistrationForm extends Component
                           <input type="text" id="phone" className="FormField__Input" placeholder="Enter your phone" name="phone" value={this.state.phone} onChange={this.handleChange} />
                       </div>
                       <div className="FormField">
-                          <button className="FormField__Button mr-20">Sign Up</button>
+                          <button className="register_button">Sign Up</button>
                       </div>
                   </form>
                 </div>  
