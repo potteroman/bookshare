@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link ,Route,NavLink,Router} from 'react-router-dom'
 
+import AddComment from './Comment/AddComment';
 
 class DetailsBook extends Component {
 
@@ -37,7 +38,9 @@ class DetailsBook extends Component {
         const item = this.state.item
         console.log(item)
         return ( 
-            <div>                
+            
+            <div> 
+                         
             <div><strong>id</strong> <i>{item.id}</i></div>
             <div><strong>surname</strong> <i>{item.surname}</i></div>
             <div><strong>firstName</strong> <i>{item.firstName}</i></div>
@@ -47,6 +50,13 @@ class DetailsBook extends Component {
             <div><strong>bookName</strong> <i>{item.bookName}</i></div>
             <div><strong>details</strong> <i>{item.details}</i></div>
             <div><strong>year</strong> <i>{item.year}</i></div>
+            <hr></hr>
+            <AddComment itemid = {item.id}/>
+            {/* <Router>  
+            <NavLink to ={"/comments/"+this.state.Book.idBook}>Comments</NavLink> | <NavLink to ={"/addComments/"+this.state.Book.idBook}>AddComment</NavLink>
+            <Route exact path="/addComments/:idBook" component={AddComment}/>
+            <Route exact path="/comments/:idBook" component={CommentsList}/>
+            </Router> */}
         </div>
         );
     }

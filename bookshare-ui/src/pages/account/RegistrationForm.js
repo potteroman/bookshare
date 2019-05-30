@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
-class RegistrationForm extends Component
-{
+import './Account.css';
+
+class RegistrationForm extends Component{
 
     constructor() {
         super();
@@ -58,39 +60,38 @@ class RegistrationForm extends Component
 
         render() {
             return (
-              <div className="App">
-          
+              <div className="Registration">
                 <div>
                   <form onSubmit={this.onSubmit}>
-                    <div className="FormField">
-                          <label className="FormField__Label" htmlFor="username">Userame</label>
-                          <input type="text" id="username" className="FormField__Input" placeholder="Enter your username" name="username" value={this.state.username} onChange={this.handleChange} />
+                      <div>
+                          <label className="Registration" htmlFor="username">Userame</label>
+                          <input type="text" id="username" className="Registration" placeholder="Enter your username" name="username" value={this.state.username} onChange={this.handleChange} />
                       </div>
                       <div className="FormField">
-                          <label className="FormField__Label" htmlFor="firstName">First Name</label>
-                          <input type="text" id="firstName" className="FormField__Input" placeholder="Enter your first name" name="firstName" value={this.state.firstName} onChange={this.handleChange} />
+                          <label className="Registration" htmlFor="firstName">First Name</label>
+                          <input type="text" id="firstName" className="Registration" placeholder="Enter your first name" name="firstName" value={this.state.firstName} onChange={this.handleChange} />
                       </div>
                       <div className="FormField">
-                          <label className="FormField__Label" htmlFor="lastName">Last Name</label>
-                          <input type="text" id="lastName" className="FormField__Input" placeholder="Enter your last name" name="lastName" value={this.state.lastName} onChange={this.handleChange} />
+                          <label className="Registration" htmlFor="lastName">Last Name</label>
+                          <input type="text" id="lastName" className="Registration" placeholder="Enter your last name" name="lastName" value={this.state.lastName} onChange={this.handleChange} />
                       </div>
                       <div className="FormField">
-                          <label className="FormField__Label" htmlFor="password">Password</label>
-                          <input type="password" id="password" className="FormField__Input" placeholder="Enter your password" name="password" value={this.state.password} onChange={this.handleChange} />
+                          <label className="Registration" htmlFor="password">Password</label>
+                          <input type="password" id="password" className="Registration" placeholder="Enter your password" name="password" value={this.state.password} onChange={this.handleChange} />
                       </div>
                       <div className="FormField">
-                          <label className="FormField__Label" htmlFor="email">Email</label>
-                          <input type="email" id="email" className="FormField__Input" placeholder="Enter your email" name="email" value={this.state.email} onChange={this.handleChange} />
+                          <label className="Registration" htmlFor="email">Email</label>
+                          <input type="email" id="email" className="Registration" placeholder="Enter your email" name="email" value={this.state.email} onChange={this.handleChange} />
                       </div>
                       <div className="FormField">
-                          <label className="FormField__Label" htmlFor="city">City</label>
-                          <input type="text" id="city" className="FormField__Input" placeholder="Enter your city" name="city" value={this.state.city} onChange={this.handleChange} />
+                          <label className="Registration" htmlFor="city">City</label>
+                          <input type="text" id="city" className="Registration" placeholder="Enter your city" name="city" value={this.state.city} onChange={this.handleChange} />
                       </div>
                       <div className="FormField">
-                          <label className="FormField__Label" htmlFor="phone">Phone</label>
-                          <input type="text" id="phone" className="FormField__Input" placeholder="Enter your phone" name="phone" value={this.state.phone} onChange={this.handleChange} />
+                          <label className="Registration" htmlFor="phone">Phone</label>
+                          <input type="text" id="phone" className="Registration" placeholder="Enter your phone" name="phone" value={this.state.phone} onChange={this.handleChange} />
                       </div>
-                      <div className="FormField">
+                      <div className="Registration">
                           <button className="register_button">Sign Up</button>
                       </div>
                   </form>

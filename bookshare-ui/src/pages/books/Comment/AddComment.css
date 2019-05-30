@@ -1,0 +1,21 @@
+.Comment input{
+    width: 195px;
+    height: 50px;
+    margin: 3px 0px 0px 10px;
+    font-weight: bold;
+    border-style: ridge;
+    border:5px;
+    border-radius: 15px;
+}
+
+.comment_button{
+    width: 149px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 15px auto 0px auto;
+    text-align: center;
+    cursor: pointer;
+    clear: both;
+}

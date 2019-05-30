@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './AnnouncePublishForm.css';
 
 class AnnouncePublishForm extends Component
 {
@@ -61,26 +62,26 @@ class AnnouncePublishForm extends Component
         <div>
           <form onSubmit={this.onSubmit}>
             <div className="FormField">
-                  <label className="FormField__Label" htmlFor="name">Name</label>
-                  <input type="text" id="name" className="FormField__Input" placeholder="Enter name of the book" name="name" value={this.state.name} onChange={this.handleChange} />
+                  <label className="Publish" htmlFor="name">Name</label>
+                  <input type="text" id="name" className="Publish" placeholder="Enter name of the book" name="name" value={this.state.name} onChange={this.handleChange} />
               </div>
               <div className="FormField">
-                  <label className="FormField__Label" htmlFor="author">Author</label>
-                  <input type="text" id="author" className="FormField__Input" placeholder="Enter author of the book" name="author" value={this.state.author} onChange={this.handleChange} />
+                  <label className="Publish" htmlFor="author">Author</label>
+                  <input type="text" id="author" className="Publish" placeholder="Enter author of the book" name="author" value={this.state.author} onChange={this.handleChange} />
               </div>
               <div className="FormField">
-                  <label className="FormField__Label" htmlFor="genre">Genre</label>
-                  <input type="text" id="genre" className="FormField__Input" placeholder="Enter genre of the book" name="genre" value={this.state.genre} onChange={this.handleChange} />
+                  <label className="Publish" htmlFor="genre">Genre</label>
+                  <input type="text" id="genre" className="Publish" placeholder="Enter genre of the book" name="genre" value={this.state.genre} onChange={this.handleChange} />
               </div>
               <div className="FormField">
-                  <label className="FormField__Label" htmlFor="year">Year</label>
-                  <input type="text" id="year" className="FormField__Input" placeholder="Enter the year of publishment" name="year" value={this.state.year} onChange={this.handleChange} />
+                  <label className="Publish" htmlFor="year">Year</label>
+                  <input type="text" id="year" className="Publish" placeholder="Enter the year of publishment" name="year" value={this.state.year} onChange={this.handleChange} />
               </div>
               <div className="FormField">
-                  <label className="FormField__Label" htmlFor="description">Description</label>
-                  <input type="text" id="description" className="FormField__Input" placeholder="Enter description of the book" name="description" value={this.state.description} onChange={this.handleChange} />
+                  <label className="Publish" htmlFor="description">Description</label>
+                  <input type="text" id="description" className="Publish" placeholder="Enter description of the book" name="description" value={this.state.description} onChange={this.handleChange} />
               </div>
-              <div className="FormField">
+              <div className="Publish">
                   <button className="publish_button">Publish</button>
               </div>
           </form>

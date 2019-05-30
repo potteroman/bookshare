@@ -8,7 +8,7 @@
       <ObjectId>16437</ObjectId>
       <StateNumber>578</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>661</IntrospectionStateNumber>
+      <IntrospectionStateNumber>664</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
       <Relations>sequence|table|16438|16440|1
@@ -106,7 +106,7 @@ sequence|table|16499|16501|1
       <Comment>standard public schema</Comment>
       <StateNumber>360</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>662</IntrospectionStateNumber>
+      <IntrospectionStateNumber>665</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -352,11 +352,11 @@ sequence|table|16499|16501|1
       <DefaultExpression>nextval(&apos;order_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="52" parent="32" name="client_id">
+    <column id="52" parent="32" name="user_id">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>656</StateNumber>
+      <StateNumber>663</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="53" parent="32" name="announce_id">
@@ -381,7 +381,7 @@ sequence|table|16499|16501|1
     <index id="56" parent="32" name="pk_order_ca_id">
       <ObjectId>16505</ObjectId>
       <StateNumber>656</StateNumber>
-      <ColNames>client_id
+      <ColNames>user_id
 announce_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -389,7 +389,7 @@ announce_id</ColNames>
     <key id="57" parent="32" name="pk_order_ca_id">
       <ObjectId>16506</ObjectId>
       <StateNumber>656</StateNumber>
-      <ColNames>client_id
+      <ColNames>user_id
 announce_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>pk_order_ca_id</UnderlyingIndexName>
@@ -397,7 +397,7 @@ announce_id</ColNames>
     <foreign-key id="58" parent="32" name="fk_user_id">
       <ObjectId>16507</ObjectId>
       <StateNumber>656</StateNumber>
-      <ColNames>client_id</ColNames>
+      <ColNames>user_id</ColNames>
       <RefTableId>16440</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>user</RefTableName>

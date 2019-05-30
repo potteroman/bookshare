@@ -31,7 +31,7 @@ class Book extends Component {
                 <td>{ item.author }</td>
                 <td>{ item.year }</td>
                 <td>{ item.announceTimestamp }</td>
-                <td><Link to={"/announce/" + item.id}>Details</Link></td>
+                <td><Link to={"/announce/" + item.id} class='dd' type="List.css">Details</Link></td>
             </tr>
         );
     }

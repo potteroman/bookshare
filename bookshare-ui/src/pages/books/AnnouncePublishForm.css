@@ -1,0 +1,41 @@
+.Publish form {   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 220px;
+    height:250px;
+    background-color: white;
+    padding: 10px 0px 0px 4px;  /*поля навкруг тексту*/
+    border-radius: 15px;
+  
+    border:5px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: "Century Gothic";
+  }
+  
+  
+  .Publish input, .Publish select {
+    width: 195px;
+    height: 20px;
+    margin: 3px 0px 0px 10px;
+    border: 5px;
+    font-weight: bold;
+   }
+  
+  .Publish form label {
+    margin: 5px 2px 0px 15px;
+  }
+  
+  .publish_button {
+    width: 149px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 15px auto 0px auto;
+    text-align: center;
+    cursor: pointer;
+    clear: both;
+  }
