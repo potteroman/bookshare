@@ -50,8 +50,9 @@ class SignInForm extends Component{
             
                 <div>
                   <button className="singin_button">Sign in</button>
+                  <br></br><br></br><br></br>
                   <hr></hr>
-                  <Link to="/register">Create an account</Link>
+                  <Link to="/register" class="sing-in" type="Account.css">Create an account</Link>
                 </div>
             </form>
         </div>

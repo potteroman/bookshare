@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+//вибір захардкодженого юзера
 public class UserTmp {
 
     public Integer getUserId() {

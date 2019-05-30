@@ -1,4 +1,9 @@
-.Registration form, .SingIn form {   
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url('/src/OpenSans/OpenSans-Regular.ttf'); 
+}
+
+.Registration form{   
     margin-left: auto; /* величина відступу від краю елементу */
     margin-right: auto;
     margin-top: 20px;
@@ -7,17 +12,25 @@
     background-color: rgb(255, 255, 255); 
     padding: 10px 0px 0px 4px;  /*поля навкруг тексту*/
 
-    border: solid #000;
-    border-width: 0 1px;
     border-radius: 15px;
-    border-style: ridge;
-    border:5px;
-    border-color: black;
-    color: black;
     text-transform: uppercase;
     font-size: 11px;
     font-weight: bold;
-    font-family: "Century Gothic";
+  }
+
+  .SingIn{
+    margin-left: auto; /* величина відступу від краю елементу */
+    margin-right: auto;
+    margin-top: 20px;
+    width: 220px;
+    height:200px;
+    background-color: rgb(255, 255, 255); 
+    padding: 15px 0px 0px 10px;  /*поля навкруг тексту*/
+
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold; 
   }
   
   input.Registration, .SingIn input, select {
@@ -41,4 +54,8 @@
     text-align: center;
     cursor: pointer;
     clear: both;
+  }
+
+  a.sing-in{
+    font-size: 14px;
   }
