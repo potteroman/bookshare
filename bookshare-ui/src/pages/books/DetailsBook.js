@@ -51,9 +51,14 @@ class DetailsBook extends Component {
             <div><strong>details:</strong> <i>{item.details}</i></div>
             <div><strong>year:</strong> <i>{item.year}</i></div>
             <hr></hr>
+            
             <AddComment itemid = {item.id}/>
+            <div className='order'>
+            <br></br>
             <CommentsList announceid = {item.id}/>
-        </form>
+            </div>
+            </form>
+       
       
         );
     }

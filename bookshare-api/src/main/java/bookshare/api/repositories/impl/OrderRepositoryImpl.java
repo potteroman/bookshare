@@ -148,7 +148,6 @@ public class OrderRepositoryImpl implements OrderRepository {
     public static void main(String[] args) throws SQLException {
 
         new OrderRepositoryImpl().selectAll().forEach(System.out::println);
-
         new OrderRepositoryImpl().updateStatus(new OrderEntity(1,1,"sdsd",true));
         new OrderRepositoryImpl().selectAll().forEach(System.out::println);
 
