@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Link ,Route,NavLink,Router} from 'react-router-dom';
-import "./DetailsBook.css";
+
 
 import AddComment from './Comment/AddComment';
 import CommentsList from './Comment/CommentsList';
 
-class DetailsBook extends Component {
+class Contact extends Component {
 
     constructor() {
         super();
@@ -40,9 +40,10 @@ class DetailsBook extends Component {
         const item = this.state.item
         console.log(item)
         return (   
-            <form className="Details">   
+            <form className="Details">
+                 
             <div><strong>id:</strong> <i>{item.id}</i></div>
-            <div><strong>lastName:</strong> <i>{item.surname}</i></div>
+            <div><strong>surname:</strong> <i>{item.surname}</i></div>
             <div><strong>firstName:</strong> <i>{item.firstName}</i></div>
             <div><strong>announceTimestamp:</strong> <i>{item.announceTimestamp}</i></div>
             <div><strong>author:</strong> <i>{item.author}</i></div>
@@ -52,11 +53,11 @@ class DetailsBook extends Component {
             <div><strong>year:</strong> <i>{item.year}</i></div>
             <hr></hr>
             <AddComment itemid = {item.id}/>
-            <CommentsList announceid = {item.id}/>
+            <CommentsList/>
+       
         </form>
-      
         );
     }
 }
 
-export default  DetailsBook;
+export default  Contact;

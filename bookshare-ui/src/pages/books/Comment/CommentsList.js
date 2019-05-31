@@ -6,59 +6,82 @@ class CommentsList extends Component {
     
     constructor() {
         super();
-        console.log("[CommentsList] constructor");
+        console.log("[OrderList] constructor");
+
         this.state = {
-            items:[]
+            items: []
         };
     }
 
+    componentDidMount() {
+        setTimeout(() => {
+            let initialItems = [];
+            const id = this.props.announceid;
+            fetch("http://localhost:8080/api/order/announce/" + this.props.announceid)
+                .then(response => {
+                    return response.json();
+
+                }).then(data => {
+
+                    initialItems = data.map((planet) => {
+                        return planet;
+                    });
+
+                    this.setState({
+                        items: initialItems,
+                    });
+                });
+        }, 2000);
+    }   
+
+        onSubmit(e) {
+            e.preventDefault();
+        
+            console.log('The form was submitted with the following data:');
+             
+            const id = this.props.itemid;
+            console.log("OrderRequest - [onSubmit] " + id)
+            fetch("http://localhost:8080/api/order/add", {
+              method: "POST",
+              headers: {
+                "content-type": "application/json"
+              },
+              body: JSON.stringify({
+                userId: 0,
+                announceId: id,
+                isActive:1,
+                comment:this.state.comment
+              })
+            });
+          }
 
     componentWillUnmount() {
-        console.log("[CommentsList] componentWillUnmount");
-    } 
-    
-    componentDidMount(){
-        const idBook = this.props.match.params.idBook;
-        console.log("[CommentsList] componentDidMount");
-        console.log(idBook);
-        let initialItems = [];
-        fetch(`http://localhost:8080/api/books/Comments/${idBook}/comment`)
-            .then(response => {
-                return response.json();
-                
-            }).then(data => {
-                console.log(data)
-                initialItems = data.map((planet) => {
-                return planet});
-
-            this.setState({
-                items: initialItems,
-            });
-        });
+        console.log("[OrderList] componentWillUnmount");
     }
+
     render() {
-        console.log("[CommentsList] render");        
+
+        console.log("[OrderList] componentDidMount 2");
+        console.log(this.props)
+        console.log("[OrderList] componentDidMount 2");
         return (
             <table>
                 <thead>
                     <tr>
-                        <th>User</th>
-                        <th>Date</th>
-                        <th>Comment</th>
-                        <th>Accept</th>
-                        <th></th>
+                        <td>First name</td>
+                        <td>Last Name</td>
+                        <td>Commment</td>
                     </tr>
                 </thead>
                 <tbody>
-                {
-                    
-                    this.state.items.map(item => <CommentItem item={ item } />)
-                   
-                }
+                    {
+                        this.state.items.map(item => <CommentItem item={item} />)
+                    }
                 </tbody>
-            </table>
+            </table >
         );
     }
 }
+
 
 export default CommentsList; 

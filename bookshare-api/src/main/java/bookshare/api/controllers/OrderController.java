@@ -2,6 +2,8 @@ package bookshare.api.controllers;
 
 
 import bookshare.api.entities.OrderEntity;
+import bookshare.api.models.ClientOrderResponse;
+import bookshare.api.models.OrderApproveRequest;
 import bookshare.api.repositories.OrderRepository;
 import bookshare.api.repositories.impl.OrderRepositoryImpl;
 import bookshare.api.utils.UserTmp;
@@ -32,6 +34,13 @@ public class OrderController {
 
     }
 
+    @GetMapping(value = "/api/order/announce/{announce_id}")
+    public ResponseEntity<List<ClientOrderResponse>> getAnnounce(@PathVariable Integer announce_id) throws SQLException {
+        List<ClientOrderResponse> orders = orderRepository.findByAnnounceId(announce_id);
+        return new ResponseEntity<>(orders, HttpStatus.OK);
+
+    }
+
     @PostMapping("/api/order/add")
     public ResponseEntity<OrderEntity> register(@RequestBody OrderEntity regRequest) throws Exception {
         System.out.println(regRequest);
@@ -40,6 +49,16 @@ public class OrderController {
                 regRequest.getComment(),
                 true));
         return new ResponseEntity<>(reg, HttpStatus.OK);
+    }
+
+    @PostMapping("/api/order/approve/")
+    public ResponseEntity<OrderApproveRequest> approveOrder(@RequestBody OrderApproveRequest approveRequest) throws Exception {
+        System.out.println(approveRequest);
+        var reg = orderRepository.updateStatus(new OrderEntity(approveRequest.getUserId(),
+                approveRequest.getAnnounceId(),
+                "",
+                false));
+        return new ResponseEntity<>(approveRequest, HttpStatus.OK);
     }
 
 }
